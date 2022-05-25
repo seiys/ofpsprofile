@@ -1,0 +1,14 @@
+{
+	"folders": [
+		{
+			"path": "."
+		},
+		{
+			"path": "{oFPath}/libs/openFrameworks"
+		},
+		{
+			"path": "{oFPath}/addons"
+		}
+	],
+	"settings": {}
+}

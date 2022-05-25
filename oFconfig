@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<config>
+    <!-- openFrameworksのフォルダの絶対パスを記入 -->
+    <!-- ex) <oFPath>C:\openFrameworks\of_v0.11.2_vs2017_release</oFPath> -->
+    <oFPath></oFPath>
+
+    <!-- MSBuild.exeの絶対パスを記入 -->
+    <!-- ex) <MSBuildPath>C:\`"Program Files`"\`"Microsoft Visual Studio`"\2022\Community\Msbuild\Current\Bin\MSBuild.exe</MSBuildPath> -->
+    <MSBuildPath></MSBuildPath>
+
+    <!-- Visual Studioのプラットフォームツールセットのバージョンを記入 -->
+    <!-- vs2017: v141, vs2019: 142, vs2022: v143 -->
+    <!-- ex) <PlatformToolset>v143</PlatformToolset> -->
+    <PlatformToolset></PlatformToolset>
+
+</config>
