@@ -65,6 +65,22 @@ function ofinit
     ofcodeset $projectName
 }
 
+function ofcode
+{
+    Param([parameter(mandatory=$true)][string]$projectName)
+    $currentDir = (Get-Location).Path
+    $projectPath = "$currentDir\$projectName"
+    $workPath = "$projectPath\$projectName.code-workspace"
+    if (Test-Path $workPath) {
+        echo "Open vscode"
+        start $workPath
+        cd $projectPath
+    } else {
+        echo "There is not oF Project Folder..."
+        break
+    }
+}
+
 function ofaddon
 {
     Param(
