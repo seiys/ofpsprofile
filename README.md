@@ -64,19 +64,19 @@ PowerShellのコマンドにて以下を実現
 <tr>
     <td><code>ofinit</code></td>
     <td><code>プロジェクト名</code></td>
-    <td>指定した名前のopenFrameworksプロジェクトを作製</td>
-    <td rowspan="2">openFrameworksプロジェクトを作製したい任意のディレクトリ</td>
+    <td>指定した名前のプロジェクトを作製</td>
+    <td rowspan="2">プロジェクトフォルダの親ディレクトリ</td>
 </tr>
 <tr>
     <td><code>ofcode</code></td>
     <td><code>プロジェクト名</code></td>
-    <td>指定した名前のopenFrameworksプロジェクトを，Visual Studio Codeにて開く<br />その後，プロジェクトディレクトリに移動</td>
+    <td>指定した名前のプロジェクトを，Visual Studio Codeにて開く<br />その後，プロジェクトフォルダに移動</td>
 </tr>
 <tr>
     <td rowspan="3"><code>ofaddon</code></td>
     <td>なし</td>
     <td>アドオンの一覧を表示</td>
-    <td rowspan="11">openFrameworksプロジェクトディレクトリ</td>
+    <td rowspan="11">プロジェクトフォルダ内</td>
 </tr>
 <tr>
     <td><code>list</code></td>
@@ -123,5 +123,5 @@ PowerShellのコマンドにて以下を実現
 </table>
 
 ## 解決しそうな課題
-- Visual Studio Codeでの環境構築
+- Visual Studio Codeを使用した環境構築
 - 任意のディレクトリにおけるプロジェクト作製
