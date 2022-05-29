@@ -53,7 +53,7 @@ PowerShellのコマンドにて以下を実現
 ```
 <br />
 
-### コマンド
+### PowerShellコマンド
 <table>
 <tr>
     <td>コマンド</td>
