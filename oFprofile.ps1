@@ -73,7 +73,7 @@ function ofcode
     $workPath = "$projectPath\$projectName.code-workspace"
     if (Test-Path $workPath) {
         echo "Open vscode"
-        start $workPath
+        code $workPath
         cd $projectPath
     } else {
         echo "There is not oF Project Folder..."
